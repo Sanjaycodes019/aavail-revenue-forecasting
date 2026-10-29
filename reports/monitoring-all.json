@@ -1,0 +1,41 @@
+{
+  "country": "all",
+  "drift": {
+    "n_production_days": 98,
+    "outlier_rate": 0.0,
+    "X_wasserstein": 0.46093680662550857,
+    "X_threshold": 0.18192117282023895,
+    "X_drift": true,
+    "y_wasserstein": 54715.67269805755,
+    "y_threshold": 18280.991058945776,
+    "y_drift": true
+  },
+  "performance": {
+    "model_rmse": 80181.2908848284,
+    "model_mae": 69554.37091936897,
+    "baseline_rmse": 58573.27032801805,
+    "baseline_mae": 52344.67009475218,
+    "by_month": [
+      {
+        "month": "2019-08",
+        "model_rmse": 31123.257687270117,
+        "baseline_rmse": 31294.34431996015
+      },
+      {
+        "month": "2019-09",
+        "model_rmse": 66163.36274209457,
+        "baseline_rmse": 53911.29461320124
+      },
+      {
+        "month": "2019-10",
+        "model_rmse": 104864.9686363997,
+        "baseline_rmse": 72086.33607124942
+      },
+      {
+        "month": "2019-11",
+        "model_rmse": 145941.34757837432,
+        "baseline_rmse": 97961.95028303505
+      }
+    ]
+  }
+}

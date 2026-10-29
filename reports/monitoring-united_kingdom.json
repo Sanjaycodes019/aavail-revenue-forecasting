@@ -1,0 +1,41 @@
+{
+  "country": "united_kingdom",
+  "drift": {
+    "n_production_days": 98,
+    "outlier_rate": 0.0,
+    "X_wasserstein": 0.46294367709236967,
+    "X_threshold": 0.1842279758730306,
+    "X_drift": true,
+    "y_wasserstein": 45339.05302335875,
+    "y_threshold": 17270.904314188458,
+    "y_drift": true
+  },
+  "performance": {
+    "model_rmse": 70712.90519266222,
+    "model_mae": 60184.61049169252,
+    "baseline_rmse": 57905.4257336493,
+    "baseline_mae": 47004.271683673476,
+    "by_month": [
+      {
+        "month": "2019-08",
+        "model_rmse": 30346.999987746534,
+        "baseline_rmse": 28994.48075372608
+      },
+      {
+        "month": "2019-09",
+        "model_rmse": 55663.154643867754,
+        "baseline_rmse": 42203.685447916156
+      },
+      {
+        "month": "2019-10",
+        "model_rmse": 89421.727083504,
+        "baseline_rmse": 71627.67125786337
+      },
+      {
+        "month": "2019-11",
+        "model_rmse": 141801.80208152908,
+        "baseline_rmse": 122512.53336906851
+      }
+    ]
+  }
+}

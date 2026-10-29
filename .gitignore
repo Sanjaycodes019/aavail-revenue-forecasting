@@ -13,6 +13,6 @@ venv/
 data/cs-train/ts-data/
 data/cs-production/ts-data/
 
-# Test artifacts
-models/test-*
-logs/test-*
+# Trained models and runtime logs (rebuilt by `python model.py`, written at runtime)
+models/
+logs/

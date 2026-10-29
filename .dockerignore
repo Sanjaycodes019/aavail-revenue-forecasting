@@ -1,0 +1,10 @@
+.git
+venv
+.venv
+__pycache__
+*.pyc
+.ipynb_checkpoints
+models
+logs
+data/cs-train/ts-data
+data/cs-production/ts-data
